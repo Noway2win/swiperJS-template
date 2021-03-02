@@ -1,0 +1,71 @@
+header {
+  padding: 3px 3px 3px 3px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  font-size: 10px;
+  font-weight: 1000;
+  padding: 15px 10px 10px 10px;
+}
+
+.nav-right-towns {
+  padding-right: 0;
+}
+
+.nav-right-towns-item {
+  padding: 5px 5px 5px 5px;
+}
+
+.nav-right-towns-item:last-child {
+  padding-right: 15px;
+}
+
+.nav-icons {
+  padding: 0 0 0 10px;
+}
+
+.services {
+  justify-content: space-around;
+}
+
+.services-item {
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.about {
+  width: 100%;
+  padding: 25px 50px 25px 50px;
+  box-sizing: border-box;
+}
+
+.partners {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.partners-item2 {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.partners-item3 {
+  display: none;
+}
+
+footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+}
+/*# sourceMappingURL=miniscss.css.map */
